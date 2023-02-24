@@ -146,11 +146,10 @@ hr {
 .banner {
 	max-width: 1600px;
 	height: 600px;
-	outline: 1px solid red;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("images/img_behind_banner.jpg");
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img_behind_banner.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -305,6 +304,7 @@ ul {
 	width: 270px;
 	height: 120px;
 	padding: 25px;
+	margin-bottom: 30px;
 }
 
 .lorem-article {
