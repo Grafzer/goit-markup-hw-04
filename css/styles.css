@@ -124,11 +124,29 @@ nav {
 	color: var(--secondary-color);
 }
 
+.mail-icon {
+	width: 16px;
+	height: 21px;
+	margin-right: 10px;
+}
+
+.mail-icon:hover,
+.mail-icon:focus {
+	color: var(--logo-color);
+	fill: var(--logo-color);
+}
+
 .contact-phone-header {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--secondary-color);
+}
+
+.phone-icon {
+	width: 10px;
+	height: 16px;
+	margin-right: 10px;
 }
 
 hr {
