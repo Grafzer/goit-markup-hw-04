@@ -299,20 +299,18 @@ ul {
 	gap: 30px;
 }
 
-.lorem-antena {
-background-color: var(--button-background-color);
+.lorem-icon {
+	background-color: var(--button-background-color);
 	border-radius: 4px;
 	width: 270px;
 	height: 120px;
+	padding: 25px;
 }
-
 
 .lorem-article {
 	width: 270px;
 	height: 251px;
-background-color: cyan;
 }
-
 
 .lorem4header {
 	font-weight: 700;
