@@ -463,7 +463,9 @@ ul {
 	margin-right: 10px;
 }
 
-
+.firm-item:hover {
+	border-color:var(--logo-color);
+}
 
 .firm-logo {
 }
