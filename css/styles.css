@@ -461,16 +461,11 @@ ul {
 	border: 1px solid var(--icon-color);
 	border-radius: 4px;
 	margin-right: 10px;
-	
 }
 
 .firm-item:hover {
-	border-color:var(--logo-color);
+	border-color: var(--logo-color);
 	cursor: pointer;
-}
-
-.firm-logo {
-
 }
 
 a:link {
