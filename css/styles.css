@@ -424,14 +424,16 @@ ul {
 	height: 44px;
 	border-radius: 50%;
 	cursor: pointer;
+	fill: var(--icon-color);
 }
 
 .social-icon {
 	align-items: center;
 }
 
-.social-icon:hover {
-	fill: var(--logo-color);
+.social-links:hover .social-links:focus {
+	background-color: var(--logo-color);
+	fill: var(--secondary-background-color);
 }
 
 .customers {
