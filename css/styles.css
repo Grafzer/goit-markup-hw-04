@@ -424,14 +424,14 @@ ul {
 	height: 44px;
 	border-radius: 50%;
 	cursor: pointer;
-	fill: var(--icon-color);
 }
 
 .social-icon {
 	align-items: center;
 }
 
-.social-links:hover .social-links:focus {
+.social-links:hover,
+ .social-links:focus {
 	background-color: var(--logo-color);
 	fill: var(--secondary-background-color);
 }
@@ -495,6 +495,54 @@ a:active {
 address {
 	font-style: normal;
 	margin-top: 20px;
+}
+
+.container-social-link {
+	display: inline-block;
+}
+
+.footer-title-join-us {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.62;
+	letter-spacing: 0.03em;
+	color: var(--secondary-background-color);
+	text-transform: uppercase;
+}
+
+.footer-social {
+	display: flex;
+	justify-content: center;
+	width: 206px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.footer-social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.footer-social-item {
+	display: flex;
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
+}
+
+.footer-social-icon {
+	align-items: center;
+}
+
+.footer-social-link:hover {
+  background-color: var(--logo-color);
+  fill: var(--secondary-background-color);
 }
 
 .visually-hidden {
