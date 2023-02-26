@@ -434,6 +434,38 @@ ul {
 	fill: var(--logo-color);
 }
 
+.customers {
+	padding: 94px 0;
+}
+
+.our-customers {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: var(--main-color);
+	margin-bottom: 50px;
+}
+
+.firm-list {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+
+.firm-item {
+	display: flex;
+	width: 170px;
+	height: 92px;
+	border: 1px solid var(--icon-color);
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+.firm-logo {
+}
+
 a:link {
 	text-decoration: none;
 }
