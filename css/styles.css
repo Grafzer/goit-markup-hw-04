@@ -496,6 +496,17 @@ a:active {
 	padding-bottom: 60px;
 }
 
+/* podzielenie na dwie kolumny by łatwiej rozmieścić w sekcji stopki */
+
+.footer-section {
+	display: flex;
+	align-self: baseline;
+}
+
+.footer-address {
+	margin-right: 70px;
+}
+
 address {
 	font-style: normal;
 	margin-top: 20px;
@@ -503,6 +514,7 @@ address {
 
 .container-social-link {
 	display: inline-block;
+	margin: 10px;
 }
 
 .footer-title-join-us {
