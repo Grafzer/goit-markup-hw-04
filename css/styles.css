@@ -496,7 +496,7 @@ a:active {
 	padding-bottom: 60px;
 }
 
-/* podzielenie na dwie kolumny by łatwiej było rozmieścić w sekcji stopki */
+/* sekcja footer jest podzielona na dwie pod-sekcje divowe by łatwiej było je rozmieścić */
 
 .footer-section {
 	display: flex;
