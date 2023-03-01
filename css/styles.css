@@ -430,17 +430,24 @@ ul {
 	height: 44px;
 	border-radius: 50%;
 	cursor: pointer;
+	fill: var(--icon-color);
 }
 
 .social-icon {
 	align-items: center;
 	width: 20px;
 	height: 20px;
+	fill: var(--icon-color);
 }
 
-.social-links:hover,
-.social-links:focus {
+.social-item:hover,
+.social-item:focus {
+	cursor: pointer;
 	background-color: var(--logo-color);
+	fill: var(--secondary-background-color);
+}
+
+.social-item:hover .social-icon {
 	fill: var(--secondary-background-color);
 }
 
@@ -477,7 +484,7 @@ ul {
 	cursor: pointer;
 	fill: red;
 	background-color: cyan;
-	border-color: brown;
+	border-color: yellow;
 }
 
 a:link {
