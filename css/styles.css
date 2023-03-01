@@ -441,7 +441,7 @@ ul {
 .social-links:hover,
 .social-links:focus {
 	background-color: var(--logo-color);
-	/* fill: var(--secondary-background-color); */
+	fill: var(--secondary-background-color);
 }
 
 .customers {
@@ -475,6 +475,9 @@ ul {
 
 .firm-item:hover {
 	cursor: pointer;
+	fill: red;
+	background-color: cyan;
+	border-color: brown;
 }
 
 a:link {
@@ -556,7 +559,8 @@ address {
 	border-radius: 50%;
 }
 
-.footer-social-icon:hover {
+.footer-social-icon:hover,
+.footer-social-icon:focus {
 	background-color: var(--logo-color);
 	fill: var(--secondary-background-color);
 }
