@@ -437,19 +437,23 @@ ul {
 	align-items: center;
 	width: 20px;
 	height: 20px;
-	fill: var(--icon-color);
+	fill: red;
 }
 
 .social-item:hover,
 .social-item:focus {
 	cursor: pointer;
 	background-color: var(--logo-color);
-	fill: var(--secondary-background-color);
 }
 
-.social-item:hover .social-icon {
+/* .social-item:hover .social-icon {
 	fill: var(--secondary-background-color);
-}
+} */
+
+/* .social-icon:hover {
+	cursor: pointer;
+	fill: var(--secondary-background-color);
+} */
 
 .customers {
 	padding: 94px 0;
@@ -482,9 +486,10 @@ ul {
 
 .firm-item:hover {
 	cursor: pointer;
-	fill: red;
+	/* fill: red;
 	background-color: cyan;
 	border-color: yellow;
+	everything changing colors works, except fill  */
 }
 
 a:link {
@@ -597,4 +602,12 @@ address {
 .contact-phone-footer:hover,
 .contact-phone-footer:focus {
 	color: var(--logo-color);
+}
+
+.pacman-icon {
+	fill: currentColor;
+}
+
+.pacman-icon {
+	fill: red;
 }
