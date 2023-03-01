@@ -434,12 +434,14 @@ ul {
 
 .social-icon {
 	align-items: center;
+	width: 20px;
+	height: 20px;
 }
 
 .social-links:hover,
 .social-links:focus {
 	background-color: var(--logo-color);
-	fill: var(--secondary-background-color);
+	/* fill: var(--secondary-background-color); */
 }
 
 .customers {
