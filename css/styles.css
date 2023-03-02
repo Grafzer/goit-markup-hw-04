@@ -58,9 +58,17 @@ body {
 	width: 1200px;
 }
 
-.current:active {
+/* .current:active {
 	color: var(--logo-color);
+} */
+
+/* .current:hover {
+	fill: var(--logo-color);
 }
+
+.current:focus {
+	fill: var(--logo-color);
+} */
 
 .header {
 	display: flex;
@@ -92,7 +100,8 @@ nav {
 	margin-left: 93px;
 }
 
-.navigation-link:hover {
+.navigation-link:hover,
+.navigation-link:focus {
 	color: var(--logo-color);
 }
 
@@ -118,6 +127,8 @@ nav {
 }
 
 .contact-mail-header {
+	display: inline-flex;
+	align-items: center;
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
@@ -126,17 +137,37 @@ nav {
 
 .mail-icon {
 	margin-right: 10px;
+	fill: var(--secondary-color);
+}
+
+.mail-icon:hover {
+	fill: var(--logo-color);
+}
+
+.phone-icon {
+	margin-right: 10px;
+	fill: var(--secondary-color);
+}
+
+.phone-icon:hover {
+	fill: var(--logo-color);
 }
 
 .contact-phone-header {
+	display: inline-flex;
+	align-items: center;
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--secondary-color);
 }
 
-.phone-icon {
-	margin-right: 10px;
+.contact-phone-header:hover .phone-icon {
+	fill: var(--logo-color);
+}
+
+.contact-mail-header:hover .mail-icon {
+	fill: var(--logo-color);
 }
 
 hr {
@@ -437,7 +468,6 @@ ul {
 	align-items: center;
 	width: 20px;
 	height: 20px;
-	fill: red;
 }
 
 .social-item:hover,
@@ -446,14 +476,9 @@ ul {
 	background-color: var(--logo-color);
 }
 
-/* .social-item:hover .social-icon {
+.social-item:hover .social-icon {
 	fill: var(--secondary-background-color);
-} */
-
-/* .social-icon:hover {
-	cursor: pointer;
-	fill: var(--secondary-background-color);
-} */
+}
 
 .customers {
 	padding: 94px 0;
@@ -484,12 +509,14 @@ ul {
 	margin-right: 10px;
 }
 
-.firm-item:hover {
+.firm-item {
+	fill: var(--icon-color);
+}
+
+.firm-item:hover,
+.firm-item:focus {
 	cursor: pointer;
-	/* fill: red;
-	background-color: cyan;
-	border-color: yellow;
-	everything changing colors works, except fill  */
+	fill: var(--logo-color);
 }
 
 a:link {
@@ -571,7 +598,11 @@ address {
 	border-radius: 50%;
 }
 
-.footer-social-icon:hover,
+.footer-social-icon:hover {
+	background-color: var(--logo-color);
+	fill: var(--secondary-background-color);
+}
+
 .footer-social-icon:focus {
 	background-color: var(--logo-color);
 	fill: var(--secondary-background-color);
@@ -602,13 +633,4 @@ address {
 .contact-phone-footer:hover,
 .contact-phone-footer:focus {
 	color: var(--logo-color);
-}
-
-.pacman-icon {
-	color: currentColor;
-}
-
-
-.pacman-icon:hover {
-	fill: red;
 }
