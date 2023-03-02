@@ -58,18 +58,6 @@ body {
 	width: 1200px;
 }
 
-/* .current:active {
-	color: var(--logo-color);
-} */
-
-/* .current:hover {
-	fill: var(--logo-color);
-}
-
-.current:focus {
-	fill: var(--logo-color);
-} */
-
 .header {
 	display: flex;
 	height: 80px;
@@ -167,6 +155,14 @@ nav {
 }
 
 .contact-mail-header:hover .mail-icon {
+	fill: var(--logo-color);
+}
+
+.contact-phone-header:focus .phone-icon {
+	fill: var(--logo-color);
+}
+
+.contact-mail-header:focus .mail-icon {
 	fill: var(--logo-color);
 }
 
@@ -445,13 +441,13 @@ ul {
 	margin-right: auto;
 }
 
-.social-item {
+/* .social-item {
 	display: flex;
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
 	margin-right: 10px;
-}
+} */
 
 .social-links {
 	display: flex;
@@ -460,6 +456,7 @@ ul {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
+	margin-right: 10px;
 	cursor: pointer;
 	fill: var(--icon-color);
 }
@@ -468,16 +465,33 @@ ul {
 	align-items: center;
 	width: 20px;
 	height: 20px;
+
 }
 
-.social-item:hover,
-.social-item:focus {
+.social-links:hover,
+.social-links:focus {
 	cursor: pointer;
 	background-color: var(--logo-color);
+	fill: var(--secondary-background-color);
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	margin-right: 10px;
 }
 
-.social-item:hover .social-icon {
+.social-links:hover .social-icon {
 	fill: var(--secondary-background-color);
+	background-color: var(--logo-color);
+
+}
+
+.social-item:focus .social-icon {
+	fill: var(--secondary-background-color);
+	background-color: var(--logo-color);
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	margin-right: 10px;
 }
 
 .customers {
@@ -598,12 +612,12 @@ address {
 	border-radius: 50%;
 }
 
-.footer-social-icon:hover {
+.footer-social-item:hover .footer-social-icon {
 	background-color: var(--logo-color);
 	fill: var(--secondary-background-color);
 }
 
-.footer-social-icon:focus {
+.footer-social-item:focus .footer-social-icon {
 	background-color: var(--logo-color);
 	fill: var(--secondary-background-color);
 }
