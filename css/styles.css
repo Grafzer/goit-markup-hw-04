@@ -605,13 +605,10 @@ address {
 }
 
 .pacman-icon {
-	color: #2196f3;
+	color: currentColor;
 }
 
-/* {
-	fill: currentColor;
-} */
 
-/* .pacman-icon {
+.pacman-icon:hover {
 	fill: red;
-} */
+}
