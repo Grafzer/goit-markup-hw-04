@@ -604,10 +604,14 @@ address {
 	color: var(--logo-color);
 }
 
-/* .pacman-icon {
-	fill: currentColor;
+.pacman-icon {
+	color: #2196f3;
 }
 
-.pacman-icon {
+/* {
+	fill: currentColor;
+} */
+
+/* .pacman-icon {
 	fill: red;
 } */
